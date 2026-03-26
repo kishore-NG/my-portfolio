@@ -2,7 +2,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
-  title: "Kishore | Developer",
+  title: "Kishore | Full Stack Developer",
   description: "Portfolio of Kishore",
   openGraph: {
     title: "Kishore Portfolio",
