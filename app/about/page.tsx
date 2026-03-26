@@ -21,7 +21,7 @@ const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   show: (i: number) => ({
     opacity: 1, y: 0,
-    transition: { delay: i * 0.08, duration: 0.6, ease: [0.42, 0, 0.58, 1] },
+    transition: { delay: i * 0.08, duration: 0.6, ease: [0.42, 0, 0.58, 1] as any },
   }),
 };
 
@@ -302,7 +302,7 @@ export default function About() {
             className="about-title"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] as any }}
           >
             Crafting digital<br /><span>experiences.</span>
           </motion.h1>
@@ -312,7 +312,7 @@ export default function About() {
             className="bio-card"
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ delay: 0.2, duration: 0.6, ease: [0.16, 1, 0.3, 1] as any }}
           >
             <p className="bio-text">
               I'm <strong>Kishore</strong>, a developer who cares deeply about both the code behind the scenes and the experience in front of it.
