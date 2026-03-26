@@ -1,5 +1,9 @@
+import PageWrapper from "@/components/PageWrapper"
+
 export default function About() {
   return (
+
+    <PageWrapper>
     <div className="max-w-3xl mx-auto p-8">
       
       <h1 className="text-4xl font-bold mb-6">About Me</h1>
@@ -28,6 +32,7 @@ export default function About() {
 </div>
 
     </div>
+    </PageWrapper>
 
 
 

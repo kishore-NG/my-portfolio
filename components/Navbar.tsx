@@ -6,10 +6,10 @@ export default function Navbar() {
       <h1 className="text-xl font-bold">Kishore</h1>
 
       <div className="flex gap-6">
-        <Link href="/">Home</Link>
+        <Link href="/" className="hover:text-gray-400">Home</Link>
         <Link href="/about" className="hover:text-gray-400">About</Link>
-        <Link href="/projects">Projects</Link>
-        <Link href="/contact">Contact</Link>
+        <Link href="/projects" className="hover:text-gray-400">Projects</Link>
+        <Link href="/contact" className="hover:text-gray-400">Contact</Link>
       </div>
     </nav>
   );
